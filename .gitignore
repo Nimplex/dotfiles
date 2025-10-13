@@ -1,4 +1,6 @@
 /*
 !/waybar/
 !/sway/
+!/nvim/
 !.gitignore
+!.gitmodules
