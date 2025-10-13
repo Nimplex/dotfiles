@@ -1,0 +1,48 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "Terminess Nerd Font";
+  font-size: 14px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: #000000;
+  color: #ffffff;
+}
+
+#workspaces button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
+}
+
+#workspaces button {
+  padding: 0 4px;
+  border: 1px solid #222222;
+  color: #ffffff;
+  background: #323232;
+}
+
+#workspaces button.focused {
+  background: #285577;
+  border: 1px solid #4c7899;
+  color: #ffffff;
+}
+
+#workspaces button.urgent {
+  background: #900000;
+  border: 1px solid #2f343a;
+}
+
+#custom-separator {
+    color: #444444;
+    padding: 0px 6px;
+}
+
+#tray,
+#clock,
+#battery,
+#network,
+#pulseaudio {
+  padding: 0 6px;
+}
