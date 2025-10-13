@@ -16,6 +16,9 @@ set $term alacritty
 # Your preferred application launcher
 set $menu rofi -show run
 
+# Your preferred font
+font pango:Terminess Nerd Font Mono 12
+
 ### Input configuration
 # man 5 sway-input
 input type:touchpad {
