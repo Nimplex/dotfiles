@@ -1,0 +1,11 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/seashells.toml"
+]
+
+[window]
+dynamic_padding = true
+
+[font]
+size = 12
+normal = { family = "Terminess Nerd Font Mono", style = "Regular" }

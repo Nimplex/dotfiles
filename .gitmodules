@@ -1,3 +1,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/Nimplex/przemek.nvim
+[submodule "alacritty/themes"]
+	path = alacritty/themes
+	url = https://github.com/alacritty/alacritty-theme
