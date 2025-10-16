@@ -98,6 +98,19 @@ input type:keyboard {
     bindsym $mod+space focus mode_toggle
     bindsym $mod+a focus parent
 
+### Resize mode
+    mode "resize" {
+        bindsym h resize shrink width 10px
+        bindsym j resize grow height 10px
+        bindsym k resize shrink height 10px
+        bindsym l resize grow width 10px
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+    }
+
+    bindsym $mod+r mode "resize"
+
 ### Scratchpad:
     bindsym $mod+Shift+minus move scratchpad
     bindsym $mod+minus scratchpad show
