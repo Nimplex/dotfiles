@@ -7,31 +7,32 @@
 }
 
 window#waybar {
-  background: #000000;
-  color: #ffffff;
-}
-
-#workspaces button:hover {
-  box-shadow: inherit;
-  text-shadow: inherit;
+  background: #181616;
+  color: #C5C9C5;
 }
 
 #workspaces button {
+  border: 1px solid #54546D;
+  background: #1F1F28;
+  color: #C5C9C5;
   padding: 0 4px;
-  border: 1px solid #222222;
-  color: #ffffff;
-  background: #323232;
 }
 
 #workspaces button.focused {
-  background: #285577;
-  border: 1px solid #4c7899;
-  color: #ffffff;
+  background: #7E9CD8;
+  color: #181616;
+  border: 1px solid #7E9CD8;
 }
 
 #workspaces button.urgent {
-  background: #900000;
-  border: 1px solid #2f343a;
+  background: #C4746E;
+  border: 1px solid #C4746E;
+  color: #181616;
+}
+
+#workspaces button:hover {
+  background: #1F1F28;
+  color: #7E9CD8;
 }
 
 #custom-separator {

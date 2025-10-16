@@ -124,7 +124,15 @@ input type:keyboard {
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
     bindsym Print exec grim
 
+### Theming
+    # class                 border    bground   text      indicator child_border
+    client.focused          #7E9CD8ff #7E9CD8ff #181616ff #1F1F28ff #7E9CD8ff
+    client.focused_inactive #54546Dff #1F1F28ff #C5C9C5ff #1F1F28ff #54546Dff
+    client.unfocused        #1F1F28ff #1F1F28ff #A6A69Cff #1F1F28ff #1F1F28ff
+    client.urgent           #C4746Eff #C4746Eff #181616ff #1F1F28ff #C4746Eff
+    client.placeholder      #181616ff #181616ff #C5C9C5ff #1F1F28ff #181616ff
+
 ### Bar configuration
-bar {
-    swaybar_command waybar
-}
+    bar {
+        swaybar_command waybar
+    }
