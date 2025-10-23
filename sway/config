@@ -19,6 +19,9 @@ set $menu rofi -show run
 # Your preferred font
 font pango:Terminess Nerd Font Mono 12
 
+# Wallpaper
+output * background /home/pszemek/wallpaper.jpg fill
+
 ### Input configuration
 # man 5 sway-input
 input type:touchpad {
