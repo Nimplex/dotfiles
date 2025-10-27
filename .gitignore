@@ -4,5 +4,7 @@
 !/nvim/
 !/alacritty/
 !/rofi/
+!/mako/
+!.zshrc
 !.gitignore
 !.gitmodules

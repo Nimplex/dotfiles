@@ -33,7 +33,7 @@ background = "#7E9CD8"
 
 [window]
 dynamic_padding = true
-opacity = 0.9
+opacity = 0.95
 blur = true
 
 [font]
