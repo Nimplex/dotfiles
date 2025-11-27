@@ -38,4 +38,4 @@ blur = true
 
 [font]
 size = 12
-normal = { family = "Terminess Nerd Font Mono", style = "Regular" }
+normal = { family = "DepartureMono Nerd Font Mono", style = "Regular" }
