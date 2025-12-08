@@ -37,5 +37,5 @@ opacity = 0.95
 blur = true
 
 [font]
-size = 12
-normal = { family = "DepartureMono Nerd Font Mono", style = "Regular" }
+size = 8.25
+normal = { family = "DepartureMono Nerd Font", style = "Regular" }

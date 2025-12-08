@@ -1,8 +1,8 @@
 * {
   border: none;
   border-radius: 0;
-  font-family: "DepartureMono Nerd Font Mono";
-  font-size: 18px;
+  font-family: "DepartureMono Nerd Font";
+  font-size: 11px;
   min-height: 0;
 }
 
@@ -18,6 +18,12 @@ window#waybar {
   padding: 0 4px;
 }
 
+#workspaces button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
+}
+
+#workspaces button.visible,
 #workspaces button.focused {
   background: #7e9cd8;
   color: #181616;

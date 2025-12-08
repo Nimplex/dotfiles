@@ -16,13 +16,13 @@ set $up k
 set $right l
 
 # Your preferred terminal emulator
-set $term alacritty
+set $term kitty
 
 # Your preferred application launcher
 set $menu rofi -show run
 
 # Your preferred font
-font pango:DepartureMono Nerd Font Mono 12
+font pango:DepartureMono Nerd Font Mono 11px
 
 # Wallpaper
 output * background /home/pszemek/wallpaper.jpg fill
