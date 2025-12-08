@@ -25,7 +25,7 @@ set $menu rofi -show run
 font pango:DepartureMono Nerd Font Mono 11px
 
 # Wallpaper
-output * background /home/pszemek/wallpaper.jpg fill
+output * background /home/pszemek/wallpaper2.jpg fill
 
 ### Input configuration
 # man 5 sway-input
@@ -131,7 +131,7 @@ input type:keyboard {
     bindsym --locked XF86AudioMicMute exec pactl set-source-mute \@DEFAULT_SOURCE@ toggle
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
-    bindsym Print exec grim
+    bindsym Print exec grim -g "$(slurp)" -t png - | wl-copy -t image/png
 
 ### Theming
     # class                 border    bground   text      indicator child_border
