@@ -1,0 +1,5 @@
+theme = "my-ayu"
+
+[editor]
+line-number = "relative"
+mouse = false
