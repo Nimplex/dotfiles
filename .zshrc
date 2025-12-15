@@ -37,6 +37,8 @@ setopt PROMPT_SUBST AUTO_CD
 alias ls='ls --color=auto'
 alias la='ls -A --color=auto'
 alias ll='ls -ilh --color=auto'
+alias hx='helix'
+alias nvim='helix' # yeah lol, I keep forgeting
 
 # Git shortcuts
 alias gs='git status'
