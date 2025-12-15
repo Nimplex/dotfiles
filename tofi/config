@@ -1,0 +1,7 @@
+font = "DepartureMono Nerd Font Mono"
+font-size = 8
+width = 600
+height = 300
+border-width = 1
+outline-width = 0
+background-color = #0a0a0a
