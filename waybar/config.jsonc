@@ -3,13 +3,13 @@
   "position": "top",
   "height": 24,
   "modules-left": [
-    "sway/workspaces",
-    "sway/mode",
+    "hyprland/workspaces",
     "custom/separator",
-    "sway/scratchpad"
+  ],
+  "modules-center": [
+    "hyprland/window"
   ],
   "modules-right": [
-    "network",
     "custom/separator",
     "pulseaudio",
     "custom/separator",
@@ -18,23 +18,13 @@
     "clock",
     "tray"
   ],
+  "hyprland/window": {
+    "max-length": 50,
+  },
   "custom/separator": {
     "format": "|",
     "interval": "once",
     "tooltip": false
-  },
-  "sway/workspaces": {
-    "disable-markup": true
-  },
-  "sway/scratchpad": {
-    "format": "  {count}",
-    "show-empty": false
-  },
-  "network": {
-    "interface": "wlan0",
-    "format-wifi": "{essid} ({signalStrength}%)",
-    "tooltip": true,
-    "on-click": ""
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
