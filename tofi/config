@@ -5,3 +5,5 @@ height = 300
 border-width = 1
 outline-width = 0
 background-color = #0a0a0a
+selection-color = #7e9cd8
+border-color = #444444
