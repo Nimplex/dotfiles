@@ -49,5 +49,8 @@
   "clock": {
     "format": "{:%Y-%m-%d %I:%M:%S %p}",
     "interval": 1
+  },
+  "tray": {
+    "spacing": 8
   }
 }
