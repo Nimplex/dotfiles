@@ -13,4 +13,5 @@ icons=true
 group-by=app-name
 layer=overlay
 anchor=top-right
-
+history=1
+max-history=60
