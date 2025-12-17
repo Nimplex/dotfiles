@@ -9,7 +9,7 @@
 !.gitignore
 !.gitmodules
 !/helix/
-!/hyprland/
+!/hypr/
 !/wofi/
 !/kitty/
 !/tofi/
