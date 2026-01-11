@@ -47,7 +47,3 @@ alias ga='git add'
 alias gc='git commit'
 alias gp='git push'
 alias gl='git log --graph --decorate --pretty=format:"%C(auto)(%cd) %C(yellow)%h%Creset "%s"%C(auto)%d -- %C(green)%an%Creset" --date=short'
-
-# Start ssh-agent
-eval $(ssh-agent) > /dev/null
-ssh-add ~/.ssh/id_ed25519 2> /dev/null
