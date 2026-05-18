@@ -2,7 +2,8 @@
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
-EDITOR=helix
+export EDITOR='/usr/bin/helix'
+export PAGER='less'
 setopt hist_ignore_dups share_history
 
 # Ctrl+R history search
